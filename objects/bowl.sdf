@@ -24,14 +24,18 @@
         </geometry>
       <surface>
         <friction>
-          <ode>
-            <mu1>100.0</mu1>
-            <mu2>100.0</mu2>
-            <slip1>0.0</slip1>
-            <slip2>0.0</slip2>
-            <soft_cfm>0.0</soft_cfm>
-            <soft_erp>0.2</soft_erp>
-          </ode>
+           <ode>
+	      <dampingFactor>0.005</dampingFactor>
+	      <kp>1000000</kp>
+	      <kd>1.0</kd>	
+	      <mu1>100.0</mu1>  
+	      <mu2>100.0</mu2>
+	      <soft_cfm>0.0</soft_cfm>
+	      <soft_erp>0.2</soft_erp>
+	      <slip1>0.0</slip1>
+	      <slip2>0.0</slip2>
+	      <min_depth>0.001</min_depth>
+           </ode>
         </friction>
       </surface>
       </collision>

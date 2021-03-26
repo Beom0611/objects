@@ -25,8 +25,8 @@
 
   <gazebo reference="block">
     <material> Gazebo/WoodPallet</material>
-     <mu1>1.0</mu1>   <!-- 원래는 둘 다 1000이었음 -->
-     <mu2>1.0</mu2>
+     <mu1>100.0</mu1>   
+     <mu2>100.0</mu2>
   </gazebo>
   
 </robot>

@@ -26,6 +26,9 @@
   <gazebo reference="block">
     <material> Gazebo/WoodPallet</material>
     <ode>	
+      <dampingFactor>0.005</dampingFactor>
+      <kp>1000000</kp>
+      <kd>1.0</kd>	
       <mu1>100.0</mu1>  
       <mu2>100.0</mu2>
       <soft_cfm>0.0</soft_cfm>
